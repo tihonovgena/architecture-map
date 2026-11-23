@@ -1,0 +1,14 @@
+{
+  "name": "architecture-map",
+  "description": "The architecture-map skill for Claude Code",
+  "owner": {
+    "name": "Gennadii Tikhonov"
+  },
+  "plugins": [
+    {
+      "name": "architecture-map",
+      "source": "./",
+      "description": "Keeps a short ARCHITECTURE.md map of your codebase: read only the sections a task needs, update only what it changed."
+    }
+  ]
+}
